@@ -31,4 +31,6 @@ m = [ [1, 2 , 4],
 show(m)
 print(busqueda_matriz_ordenada(m, 1))
 print(busqueda_matriz_ordenada(m, 5))
+print(busqueda_matriz_ordenada(m, -1))
+print(busqueda_matriz_ordenada(m, 257))
 

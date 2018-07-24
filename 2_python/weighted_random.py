@@ -38,5 +38,5 @@ for _ in range(1000):
     res[weighted_random_correcto(values, weights)]+=1
 print("densidad generada: {}".format(normalize(res)))
 print("densidad deseada: {}".format(normalize(weights)))
-#IMPORTANTE: Solo va a andar en python3 por el uso de / para division de floats.
+print("IMPORTANTE: Solo va a andar en python3 por el uso de / para division de floats.")
 
