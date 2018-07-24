@@ -1,0 +1,8 @@
+El comando chmod permite cambiar los permisos de un archivo (sudo mediante), 
+por ejemplo dar permiso de escritura sobre un archivo de solo lectura,
+o permitir que los usuarios puedan leer un archivo que antes no.
+
+Esa linea equivaldria a 
+chmod 100 010 001 o 'chmod 421':
+vuelve al archivo ejecutable por 'otros', escribible por el grupo de usuarios, y legible por el Owner.
+
