@@ -1,0 +1,9 @@
+usaria du, que permite ver el uso de disco en una máquina.
+Una forma de resolver el problema bastante intuitiva seria pararme en ~/
+y correr
+
+du -h -d 1
+
+Para luego ir metiendome en la carpeta que mas consuma que tenga cosas que este dispuesto a borrar.
+
+Es dificil dar una respuesta mas detallada sin conocer que tipo de archivos habra en cada carpeta o cuales son borrables.
