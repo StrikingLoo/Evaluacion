@@ -8,3 +8,5 @@ El siguiente comando en el pipeline, grep -m 100 garantiza ir concatenando las n
 No me queda del todo claro si este resultado final tendra mas de 100 lineas una vez que haya mas de 100 matches, o sobreescribira las primeras.
 
 Puedo garantizar que este programa contendra las ultimas 100 lineas con errores en su output, con la posibilidad de dejar lineas anteriores si hay algo que entendi mal en el camino.
+Esto sera cierto despues de un tiempo, porque si el programa contenia lineas de errores arriba de sus ultimas 100, no seran mostradas inicialmente.
+
