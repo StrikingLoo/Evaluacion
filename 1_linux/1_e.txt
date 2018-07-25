@@ -1,0 +1,10 @@
+El comando al que llegue para este punto  es 
+
+tail -f -n 100 errors_log |grep -m 100 ERROR
+
+Esto va a tomar las ultimas 100 lineas del archivo log (por ejemplo el errors_log creado con este generador en python), y seguirlas en tiempo real.
+El siguiente comando en el pipeline, grep -m 100 garantiza ir concatenando las nuevas lineas que matcheen ERROR, con un limite de 100 lineas.
+
+No me queda del todo claro si este resultado final tendra mas de 100 lineas una vez que haya mas de 100 matches, o sobreescribira las primeras.
+
+Puedo garantizar que este programa contendra las ultimas 100 lineas con errores en su output, con la posibilidad de dejar lineas anteriores si hay algo que entendi mal en el camino.
