@@ -40,3 +40,4 @@ print("densidad generada: {}".format(normalize(res)))
 print("densidad deseada: {}".format(normalize(weights)))
 print("IMPORTANTE: Solo va a andar en python3 por el uso de / para division de floats.")
 
+# si quisieramos que ande en python 2, bastaria cambiar w por float(w) en la linea 20
